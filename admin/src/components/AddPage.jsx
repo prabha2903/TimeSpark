@@ -20,7 +20,7 @@ const AddPage = () => {
   const [brandName, setBrandName] = useState("");
 
     const inputRef = useRef(null);
-  const API_BASE = "http://localhost:4000";
+  const API_BASE = "https://timespark-t0e4.onrender.com";
   const BRANDS = [
     "Rolex",
     "Omega",

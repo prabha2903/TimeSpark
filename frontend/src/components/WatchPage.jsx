@@ -22,7 +22,7 @@ const WatchPage = () => {
   const [watches, setWatches] = useState([]);
   const [loading, setLoading] = useState(true);
 
-  const API_BASE = "http://localhost:4000";
+  const API_BASE = "https://timespark-t0e4.onrender.com";
 
   const mapServerToUI = (item) => {
     let img = item.image ?? "";

@@ -9,7 +9,7 @@ const ListPage = () => {
   const [loading, setLoading] = useState(true);
   const [deletingId, setDeletingId] = useState(null);
 
-  const API_BASE = "http://localhost:4000";
+  const API_BASE = "https://timespark-t0e4.onrender.com";
   const LIST_PATH = "/api/watches";
 
   const mapServerToUI = (item) => {

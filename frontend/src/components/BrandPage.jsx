@@ -6,7 +6,7 @@ import { ArrowLeft, Minus, Plus } from "lucide-react";
 import axios from "axios";
 
 /* 🔴 CHANGED: https → http (VERY IMPORTANT) */
-const API_BASE = "http://localhost:4000";
+const API_BASE = "https://timespark-t0e4.onrender.com";
 
 const BrandPage = () => {
   const { brandName } = useParams();

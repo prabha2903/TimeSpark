@@ -6,7 +6,7 @@ import {  ArrowLeft, Minus, Plus, ShoppingBag, Trash2 } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import { useEffect } from 'react';
 import axios from 'axios';
-const API_BASE = "http://localhost:4000";
+const API_BASE = "https://timespark-t0e4.onrender.com";
 function CartProduct({ item }) {
   const { increment, decrement, removeItem } = useCart();
   const [localQty, setLocalQty] = useState(item.qty ?? 1);
