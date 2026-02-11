@@ -278,7 +278,7 @@ const ContactPage = () => {
            Short Message{" "}
            <span className={contactPageStyles.requiredStar}>*</span>
             </label>
-            <textarea name='message' value={form.name} onChange={handleChange}
+            <textarea name='message' value={form.message} onChange={handleChange}
             rows={4} className={`${contactPageStyles.textareaContainer} ${errors.message ? contactPageStyles.inputError : contactPageStyles.inputNormal}`}
             placeholder='Tell us what you are looking for...' required></textarea>
         </div>
