@@ -10,7 +10,7 @@ import orderRouter from './routes/orderRoute.js';
 
 dotenv.config();
 const app =express();
-const port = 4000;
+const PORT = process.env.PORT || 4000;
 
 //Middleware
 app.use(cors());
@@ -29,6 +29,8 @@ app.get('/',(req,res)=>{
     res.send("API WORKING");
 })
 
-app.listen(port,()=>{
-    console.log(`Server Started on http://localhost:${port}`)
+
+
+app.listen(PORT, () => {
+    console.log(`Server running on port: ${PORT}`);
 });
