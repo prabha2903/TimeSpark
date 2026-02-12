@@ -4,8 +4,7 @@ import axios from "axios";
 import { ShoppingBag, Calendar, Package, Eye, EyeOff } from "lucide-react";
 import { ordersPageStyles } from "../assets/dummyStyles";
 
-const API_BASE = "https://timespark-t0e4.onrender.com";
-
+const API_BASE = "https://timespark-t0e4.onrender.com/api";
 export default function OrdersPage() {
   const [orders, setOrders] = useState([]);
   const [expanded, setExpanded] = useState([]);

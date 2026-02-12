@@ -9,7 +9,7 @@ import { ChevronDown } from 'lucide-react';
 import { User,Phone,MapPin,MessageSquare,Trash2 } from 'lucide-react';
 
 
-const API_BASE = "https://timespark-t0e4.onrender.com";
+const API_BASE = "https://timespark-t0e4.onrender.com/api";
 
 const axiosInstance = axios.create({ baseURL: API_BASE });
 axiosInstance.interceptors.request.use((cfg) => {
